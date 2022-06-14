@@ -125,8 +125,28 @@ function themeObjValueToStringValue<T extends string>(objValue: Record<T, ColorO
 
 const availableThemesCamelCase = {
   lightTheme,
+  einkTheme : {
+    ...lightTheme,
+    fontColor: {
+      r: 0x00,
+      g: 0x00,
+      b: 0x00,
+      a: 1,
+    },
+    backgroundColor: {
+      r: 0xff,
+      g: 0xff,
+      b: 0xff,
+    },
+  },
   ecruTheme: {
     ...lightTheme,
+    fontColor: {
+      r: 0x39,
+      g: 0x38,
+      b: 0x31,
+      a: 0.87
+    },
     backgroundColor: {
       r: 0xf7,
       g: 0xf6,
