@@ -148,9 +148,9 @@ const availableThemesCamelCase = {
       a: 0.87
     },
     backgroundColor: {
-      r: 0xf7,
-      g: 0xf6,
-      b: 0xeb
+      r: 0xf5,
+      g: 0xed,
+      b: 0xd3
     }
   },
   waterTheme: {
