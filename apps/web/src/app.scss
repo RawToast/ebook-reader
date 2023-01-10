@@ -34,14 +34,16 @@
   src: local(''), url('/fonts/genEiKoburiMin5.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'Klee One';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local(''), url('/fonts/klee-one-v7-regular.woff2') format('woff2'),
-    url('/fonts/klee-one-v7-regular.woff') format('woff');
-}
+// We don't use Klee One 400 font, as this repo is focused on eink.
+// This font renders rather poorly on eink.
+// @font-face {
+//   font-family: 'Klee One';
+//   font-style: normal;
+//   font-weight: 400;
+//   font-display: swap;
+//   src: local(''), url('/fonts/klee-one-v7-regular.woff2') format('woff2'),
+//     url('/fonts/klee-one-v7-regular.woff') format('woff');
+// }
 
 @font-face {
   font-family: 'Klee One';
